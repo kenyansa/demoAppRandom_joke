@@ -1,0 +1,100 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevent scrolling */
+}
+
+#container {
+    display: flex;
+    height: 100vh; /* Set container height to viewport height */
+}
+
+#tech-info {
+    flex: 1; /* Make tech-info section take up equal space */
+    padding: 20px; /* Add padding to tech-info */
+    box-sizing: border-box; /* Include padding in section width */
+    background-color: #f0f0f0; /* Example background color for tech-info */
+    overflow: hidden; /* Prevent scrolling for tech-info */
+}
+
+#joke-generator {
+    flex: 1; /* Make joke-generator section take up equal space */
+    padding: 20px; /* Add padding to joke-generator */
+    box-sizing: border-box; /* Include padding in section width */
+    background-color: #e0e0e0; /* Example background color for joke-generator */
+}
+
+#tech-info h2 {
+    display: block; /* Ensure the heading is displayed */
+}
+
+#joke-generator {
+    background-color: #e0e0e0; /* Example background color for joke-generator */
+}
+
+#tech-info img {
+    max-width: 100%; /* Make image responsive */
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20%;
+}
+
+#joke-generator {
+    width: 45%; /* Adjust width as needed */
+}
+
+.hover-button {
+    background-color: #008CBA;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.hover-button:hover {
+    background-color: #005f75;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: #f8f9fa; /* Add background color */
+    border-bottom: 1px solid #e9ecef; /* Add border for separation */
+}
+
+.logo img {
+    height: 40px; /* Adjust logo height */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #007bff; /* Change color on hover */
+}
+section {
+    flex: 1; /* Let sections grow to fill the remaining space */
+    overflow-y: auto; /* Enable scrolling for sections with overflow */
+  }
+
+  
