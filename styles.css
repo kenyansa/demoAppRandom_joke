@@ -42,6 +42,9 @@ html, body {
 #joke-generator {
     width: 45%; /* Adjust width as needed */
 }
+#jokeContainer{
+    padding: 2rem;
+}
 
 .hover-button {
     background-color: #008CBA;
